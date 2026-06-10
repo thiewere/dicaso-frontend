@@ -1,6 +1,7 @@
-# DicasoFrontend
+# DICASO-MEUBLE ERP — Frontend Application
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.14.
+This repository contains the enterprise-grade frontend interface for the DICASO-MEUBLE custom ERP system. Built as a high-performance Single Page Application (SPA) using Angular, this client dashboard streamlines the core operations of a custom furniture manufacturing business.
+
 
 ## Development server
 
@@ -11,20 +12,6 @@ ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
 
 ## Building
 
