@@ -1,0 +1,28 @@
+<div>
+    <h1 class="text-center text-3xl mb-5 ">Liste des achats</h1>
+
+    <div class="card shadow-2xl">
+        <p-table [value]="purchases()"  stripedRows [tableStyle]="{ 'min-width': '40rem', 'align': 'center' }">
+            <ng-template #header>
+                <tr class="border">
+                    <th class="border">Date</th>
+                    <th>Nom</th>
+                    <th>Type</th>
+                    <th>Quantité</th>
+                    <th>Prix Unitaire</th>
+                    <th>Prix Total</th>
+                </tr>
+            </ng-template>
+            <ng-template #body let-purchase>
+                <tr>
+                    <td >{{purchase.date}}</td>
+                    <td>{{purchase.materialName}}</td>
+                    <td>{{purchase.materialType}}</td>
+                    <td>{{purchase.quantity}}</td>
+                    <td>{{purchase.price}} GNF</td>
+                    <td>{{purchase.price * purchase.quantity}} GNF</td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>
