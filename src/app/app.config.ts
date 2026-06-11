@@ -10,15 +10,15 @@ import Aura from '@primeuix/themes/aura';
 const definedPreset = definePreset(Aura, {
   semantic: {
     primary: {
-      50: '{red.800}',
-      100: '{red.800}',
-      200: '{red.800}',
-      300: '{red.800}',
-      400: '{red.800}',
-      500: '{red.800}',
-      600: '{red.800}',
-      700: '{red.800}',
-      800: '{red.800}',
+      50: '{red.900}',
+      100: '{red.900}',
+      200: '{red.900}',
+      300: '{red.900}',
+      400: '{red.900}',
+      500: '{red.900}',
+      600: '{red.900}',
+      700: '{red.900}',
+      800: '{red.900}',
       900: '{red.900}',
       950: '{red.950}'
     }
